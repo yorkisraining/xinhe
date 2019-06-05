@@ -1,0 +1,2 @@
+webpackJsonp([21],{QqVM:function(t,e){},zc2A:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var s={data:function(){return{title:"关于我们"}},components:{Header:n("Cz8s").a}},i={render:function(){this.$createElement;this._self._c;return this._m(0)},staticRenderFns:[function(){var t=this.$createElement,e=this._self._c||t;return e("div",[e("div",{staticClass:"content"},[e("h2",[this._v("关于我们")])])])}]};var r=n("VU/8")(s,i,!1,function(t){n("QqVM")},"data-v-f10b79ee",null);e.default=r.exports}});
+//# sourceMappingURL=21.6215cca5e41f1fb58ffd.js.map

@@ -1,0 +1,22 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta content=yes name=apple-mobile-web-app-capable><meta name=viewport content="maximum-scale=1,minimum-scale=1,user-scalable=0,width=device-width,initial-scale=1"><title>thinkDoctor</title><script>(function() {
+      if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
+      handleFontSize();
+      } else {
+      document.addEventListener("WeixinJSBridgeReady", handleFontSize, false);
+      }
+      function handleFontSize() {
+      // 设置网页字体为默认大小
+      WeixinJSBridge.invoke('setFontSizeCallback', { 'fontSize' : 0 });
+      // 重写设置网页字体大小的事件
+      WeixinJSBridge.on('menu:setfont', function() {
+      WeixinJSBridge.invoke('setFontSizeCallback', { 'fontSize' : 0 });
+      });
+      }
+    })();</script><link href=./static/css/app.1895b758a32d174c899ec61b3da78cad.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.4eaf72cc30e31a0003a8.js></script><script type=text/javascript src=./static/js/vendor.5597ec3ff6be66b1016f.js></script><script type=text/javascript src=./static/js/app.fcc7a416ad6a623c742c.js></script></body><style type=text/css>* {
+    user-select: none;
+  }
+
+  body {
+    background: #fff;
+    height: auto;
+  }</style></html>
